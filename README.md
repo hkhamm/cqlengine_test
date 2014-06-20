@@ -1,4 +1,4 @@
 cqlengine_test
 ==============
 
-some test of the cassandra cqlengine
+some tests of the cassandra cqlengine

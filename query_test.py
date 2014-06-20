@@ -1,7 +1,10 @@
-from cass_models import Event
 from cqlengine import connection
+
+from cass_models import Event
+
 
 connection.setup(['54.200.175.168:9160'])
 all_objects = Event.objects.all()
 
-print(all_objects[0].id)
+for event in all_objects:
+    print(dict(event))

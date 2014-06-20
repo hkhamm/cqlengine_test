@@ -1,7 +1,8 @@
-from cqlengine import columns
-from cqlengine import models
 import uuid
 from datetime import datetime
+
+from cqlengine import columns
+from cqlengine import models
 
 
 class Event(models.Model):
